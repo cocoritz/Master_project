@@ -26,6 +26,10 @@ def rawdata():
     
     st.title('Raw data')
     st.write('xx')
+    
+    DATA_URL = ('data/petiteconversation.csv')
+    df = pd.read_csv(DATA_URL)
+    
  
     
 def analyseddata():
