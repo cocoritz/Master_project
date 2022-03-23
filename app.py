@@ -29,7 +29,7 @@ def rawdata():
     
     DATA_URL = ('Data/petiteconversation.csv')
     df = pd.read_csv(DATA_URL)
-    
+    st.write(df) 
  
     
 def analyseddata():
