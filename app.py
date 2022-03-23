@@ -1,5 +1,6 @@
 
 import streamlit as st
+import panda as pd
 
 
 def main():
@@ -27,9 +28,10 @@ def rawdata():
     st.title('Raw data')
     st.write('xx')
     
-    DATA_URL = ('./Data/petiteconversation.csv')
+    DATA_URL = ('Data/petiteconversation.csv')
     df = pd.read_csv(DATA_URL)
     st.write(df) 
+  
  
     
 def analyseddata():
