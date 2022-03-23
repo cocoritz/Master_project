@@ -27,7 +27,7 @@ def rawdata():
     st.title('Raw data')
     st.write('xx')
     
-    DATA_URL = ('data/petiteconversation.csv')
+    DATA_URL = ('Data/petiteconversation.csv')
     df = pd.read_csv(DATA_URL)
     
  
